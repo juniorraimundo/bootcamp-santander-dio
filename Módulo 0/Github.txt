@@ -1,0 +1,26 @@
+Listar as configurações do Git
+git config --list
+
+Limpar dados de e-mail e nome
+$ git config --global --unset user.(name ou e-mail) 
+
+Enviar o repositório para o GitHub
+
+git remote add origin (url do repositório no github)
+
+Listar urls remotas cadastradas
+git remote -v 
+
+Empurrar
+
+git push origin (ou nome dado) master
+
+Quando tiver conflito
+
+git pull origin master
+
+
+
+Baixar outros repositorios
+
+git clone (colar url da pasta)

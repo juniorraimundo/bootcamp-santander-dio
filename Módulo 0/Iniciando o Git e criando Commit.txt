@@ -1,0 +1,42 @@
+Iniciando o Git e Criando um Commit
+
+Comandos:
+git init
+git add
+git commit
+
+Criar pasta:
+mkdir - Criar pasta
+
+Configurar e-mail no git:
+git config --global user.email "E-MAIL"
+
+Configurar nome no git:
+git config --global user.email "NOME"
+
+Markdown: Utiliza-se uma linguagem mais simples para escrever HTML
+
+Para adicionar um commit ao Git
+
+1. git add *
+2. git commit -m "nome do commit inicial"
+
+
+Tracked e Untracked
+
+Untracked - O git ainda não tem ciência;
+
+Tracked: O git já tem conhecimento do arquivo.
+1. Unmodified - Não modificado
+2. Modified - Modificado 
+3. Staged - Aguardando para outra ação (Ele vai para o commit)
+
+Quando escreve o commit, o arquivo volta para unmodified
+
+
+git status - Monitorar o status do arquivo no git
+
+mv = Comando de mover pastas
+
+
+
