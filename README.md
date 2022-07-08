@@ -1,2 +1,3 @@
-# bootcamp-santander-dio
-Repositório para organizar os estudos do Bootcamp Santander da DIO
+# Repositório para o Bootcamp Santander - DIO
+
+Este repositório foi criado para organizar anotações, materiais, projetos e etc referentes aos estudos do Bootcamp Santander - DIO.
