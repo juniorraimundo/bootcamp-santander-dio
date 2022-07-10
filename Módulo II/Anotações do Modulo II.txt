@@ -1,4 +1,21 @@
+HTML 5
+
 Links importantes:
 
 Melhoramento de imagens
 tinypng.com
+
+
+CSS 3
+
+
+Classe precedida por "."
+Id precedida por "#"
+
+Box model:
+Magin - Entre elementos
+Border - Circundam o padding e conteúdo
+padding - Espaçamento entre borda e conteúdo;
+Content - Conteúdo;
+
+
