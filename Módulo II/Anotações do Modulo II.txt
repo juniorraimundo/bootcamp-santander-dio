@@ -18,4 +18,75 @@ Border - Circundam o padding e conteúdo
 padding - Espaçamento entre borda e conteúdo;
 Content - Conteúdo;
 
+FLEXBOX
 
+
+Flex Container
+
+Propriedades:
+Display - Inicializador do container
+flex-direction - Direcionamento
+wrap - quebra de linha ou não
+justify-content - Alinhar container
+align-items - Alinhar de acordo com eixo
+align-contents - Alinhar linhas do container
+
+
+Flex item
+
+Propriedades
+
+grow
+basis
+shrink
+flex
+order
+align-self
+
+
+Eixos:
+row 
+row-reverse
+column
+column-reverse
+
+
+wrap
+
+nowrap (Padrão)
+wrap
+wrap-reverse
+
+
+flex-flow
+
+justify-content
+
+flex-start - inicio do container
+flex-end - final do container
+center - ao centro do container
+space-between - espaçamento igual
+space-around - espaços do meio duas vezes maiores que o inicio e o final
+
+
+align-items
+
+center: alinhar ao centro
+stretch: crescem igualmente
+flex-start: ao inicio
+flex-end: ao final
+baseline: de acordo com a linha base
+
+align-content
+
+center: Alinhar ao centro
+stretch: Crescem igualmente
+flex-start: ao inicio
+flex-end: ao final
+space-between - espaçamento igual
+space-around - espaços do meio duas vezes maiores que o inicio e o final
+
+
+flex-grow
+flex-basis
+flex-shrink - redução ou compressão de tamanho de item

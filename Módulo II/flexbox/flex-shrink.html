@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fundamentos - Flex Shrink</title>
+	<style type="text/css">
+		.flex-container{
+			display: flex;
+			border: 1px solid black;
+			max-width: 350px;
+		}
+
+		.item{
+			background-color: orangered;
+			font-size: 24px;
+			text-align: center;
+			margin: 5px;
+		}
+
+		.s-1{
+			flex-shrink: 1;
+		}
+
+		.fg-1{
+			flex-grow: 1;
+
+		}
+		.S-0{
+			flex-shrink: 0;
+			flex-basis: 200px;
+		}
+
+		.S-1{
+			flex-shrink: 0;
+			flex-basis: 100px;
+		}
+
+		.S-2{
+			flex-shrink: 0;
+			flex-basis: 100px;
+		}
+
+		.S-0{
+			flex-shrink: 0;
+			flex-basis: 100px;
+		}
+
+	</style>
+</head>
+<body>
+	<p>flex-shrink: 1</p>
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-1 fg-1 ">B</div>
+		<div class="item s-1 fg-1 ">C</div>
+		<div class="item s-1 fg-1 ">D</div>
+		<div class="item s-1 fg-1 ">E</div>
+	</div>
+
+	<p>flex-shrink: 1</p>
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-1 fg-1 ">The Genareted</div>
+		<div class="item s-1 fg-1 ">C</div>
+		<div class="item s-1 fg-1 ">D</div>
+	</div>
+
+	<p>flex-shrink: 0 / basis - 100px</p>
+	<div class="flex-container">
+		<div class="item s-0 fg-1">A</div>
+		<div class="item s-0 fg-1 ">The Genareted</div>
+		<div class="item s-0 fg-1 ">CCCCCC</div>
+		<div class="item s-0 fg-1 ">D</div>
+	</div>
+
+
+	<p>flex-shrink: 1,2 e 3 / basis - 100px</p>
+	<div class="flex-container">
+		<div class="item s-1 fg-1">A</div>
+		<div class="item s-2 fg-1 ">The Genareted</div>
+		<div class="item s-3 fg-1 ">C</div>
+		<div class="item s-2 fg-1 ">D</div>
+	</div>
+
+</body>
+</html>
